@@ -4,13 +4,18 @@ valores enteros mas bajos.
 */
 
 function sumTwoSmallestNumbers(numbers) {  
-    //Code here
-    let result = 0;
+    // Variables...
+
+    let result = 0; // Inicializamos en cero...
+
+    // Con el metodo sort() ordenamos de forma ascendente.
     numbers.sort((a, b) => a - b);
     for(let i = 0; i < 2; i++){
-        result += numbers[i];
+        result += numbers[i]; // re-asignamos los dos primeros valores, que, seran los menores
     }
+    // retornamos el resultado.
     return result;
 }
 
+// Exportamos como modulo...
 module.exports = sumTwoSmallestNumbers;
