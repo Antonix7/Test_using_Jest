@@ -1,26 +1,26 @@
-*************************************************
-
-*Recuerde ejecutar instalar todas las dependencias necesarias (npm install)*
-
-En la carpeta Test estan las pruebas con jest mas relevantes,
-tambien aqui es donde se añadiran mas pruebas con Jest a medida 
-que creece el proyecto.
-
--------------------------------------------------
-En la carpeta TryTest hay varios test numerados, estos son pruebas basicas
-con las que puede revisar rapidamente el funcionamiento de Jest,
-tambien es la carpeta donde me acostumbre al manejo de los comandos npm y al
-manejo de test con Jest en general.
--------------------------------------------------
-Asegure que las dependencias correctas estan instaladas, y, que el comando jest
-esta correctamente en el package.json de la siguiente manera.
-
+## Config
+> - In the package.json
 "scripts": {
     "test": "jest"
 }
 
-Puede ejecutar todos los test usando *npm test*
-para ejecutar solo tests preferidos asegurese de colocar el archivo y directorio.
-*npm test ./test/DescendingOrder.js*
-
-*************************************************
+## Setup and run
+- For dependencies
+```bash
+npm install
+```
+- For run
+```
+npm test
+```
+## Forder info
+```markdown
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28/08/2023     13:26                Test
+d-----        27/08/2023     12:34                TryTest
+-a----        28/08/2023     13:21             12 .gitignore
+-a----        26/08/2023     14:18         133440 package-lock.json
+-a----        26/08/2023     14:31            239 package.json
+-a----        28/08/2023     13:49           1055 README.MD
+```
